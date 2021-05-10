@@ -14,9 +14,9 @@ RNLocation.configure({
   fastestInterval: 10000, // Milliseconds
   maxWaitTime: 5000,
 });
-
-const baseURL = 'http://192.168.1.163:3000/api/';
-const api_key = 'AIzaSyCJNdTFqGR-CmUgbTVfG7G2uwPikd1AUFY';
+//url from server
+const baseURL = 'http://localhost:3000/api/';
+const api_key = 'googleapis_api_key';
 
 const check_location = async () => {
   //request location permission
